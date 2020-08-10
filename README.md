@@ -63,92 +63,92 @@ Aqui tenemos un ejemplo con el resultado a la pregunta **"Your personal job situ
 
 El problema con estos datos es que no existé un ranking para poder ver de una forma más clara que ciudades son las que tienen mayor calidad de vida. Por lo que tuve que coger todos los resultados de cada pregunta(porcentajes) para cada ciudad y hacer una media y por así obtener un ranking propio. Este resultado residen en un excel bastanta grande como para ponerlo aqui, por eso, simplemente añado la tabla que ahce referencia al ranking de las 83 ciudades en donde se realizo la encuesta de Europa.
 
-|Nº    |Ciudad	            |Porcentaje_2015|
-|------|-------------------|
-|1   |	Zurich	            |85%|
-|2   |	Aalborg	            |81%|
-|3   |	Groningen	        |81%|
-|4   |	Luxembourg	        |81%|
-|5   |	Rennes	            |79%|
-|6   |	Wien	            |79%|
-|7   |	Oslo	            |79%|
-|8   |	Helsinki	        |79%|
-|9   |	Munchen	            |78%|
-|10	|   Oulu	            |78%|
-|11	|   Graz	            |78%|
-|12	|   Cardiff	            |78%|
-|13	|   Belfast	            |78%|
-|14	|   Stockholm	        |77%|
-|15	|   Glasgow	            |77%|
-|16	|   Newcastle	        |77%|
-|17  |	Antwerpen	        |77%|
-|18  |	Bordeaux	        |76%|
-|19  |	Geneva	            |76%|
-|20  |	Kobenhavn	        |76%|
-|21  |	Malmo	            |75%|
-|22  |	Bialystok	        |75%|
-|23  |	Strasbourg	        |75%|
-|24  |	Oviedo	            |75%|
-|25  |	Hamburg	            |75%|
-|26  |	Greater_Manchester	|74%|
-|27  |	Rostock	            |74%|
-|28  |	Rotterdam	        |74%|
-|29  |	Leipzig	            |74%|
-|30  |	Manchester	        |74%|
-|31  |	Braga	            |74%|
-|32  |	Amsterdam	        |73%|
-|33  |	Ljubljana	        |73%|
-|34  |	Dublin	            |72%|
-|35  |	Reykjavik	        |72%|
-|36  |	London	            |72%|
-|37  |	Cluj_Napoca	        |72%|
-|38  |	Gdansk	            |72%|
-|39  |	Dortmund	        |71%|
-|40  |	Zagreb	            |71%|
-|41  |	Piatra_Neamt	    |69%|
-|42  |	Essen	            |69%|
-|43  |	Vilnius	            |69%|
-|44  |	Burgas	            |69%|
-|45  |	Praha	            |69%|
-|46  |	Lille	            |68%|
-|47  |	Tallinn	            |68%|
-|48  |	Antalya	            |68%|
-|49  |	Krakow	            |68%|
-|50  |	Malaga	            |67%|
-|51  |	Berlin	            |67%|
-|52  |	Ostrava	            |67%|
-|53  |	Verona	            |67%|
-|54  |	Paris	            |67%|
-|55  	Brussel|/Bruxelles	|67%|
-|56  |	Greater_Paris	    |66%|
-|57  |	Barcelona	        |65%|
-|58  |	Warszawa	        |65%|
-|59  |	Diyarbakir	        |65%|
-|60  |	Liege	            |65%|
-|61  |	Riga	            |65%|
-|62  |	Kosice	            |64%|
-|63  |	Greater_Lisbon	    |63%|
-|64  |	Bologna	            |63%|
-|65  |	Ankara	            |62%|
-|66  |	Budapest	        |62%|
-|67  |	Lefkosia	        |61%|
-|68  |	Marseille	        |60%|
-|69  |	Miskolc	            |60%|
-|70  |	Torino	            |59%|
-|71  |	Valletta	        |59%|
-|72  |	Lisboa	            |58%|
-|73  |	Madrid	            |58%|
-|74  |	Bratislava	        |57%|
-|75  |	Irakleio	        |56%|
-|76  |	Sofia	            |54%|
-|77  |	Bucuresti	        |54%|
-|78  |	Istanbul	        |52%|
-|79  |	Napoli	            |49%|
-|80  |	Greater_Athens	    |48%|
-|81  |	Roma	            |48%|
-|82  |	Palermo	            |45%|
-|83  |	Athina	            |44%|
+| Nº |       Ciudad       | Porcentaje 2015 |
+|:--:|:------------------:|:---------------:|
+|  1 |       Zurich       |       85%       |
+|  2 |       Aalborg      |       81%       |
+|  3 |      Groningen     |       81%       |
+|  4 |     Luxembourg     |       81%       |
+|  5 |       Rennes       |       79%       |
+|  6 |        Wien        |       79%       |
+|  7 |        Oslo        |       79%       |
+|  8 |      Helsinki      |       79%       |
+|  9 |       Munchen      |       78%       |
+| 10 |        Oulu        |       78%       |
+| 11 |        Graz        |       78%       |
+| 12 |       Cardiff      |       78%       |
+| 13 |       Belfast      |       78%       |
+| 14 |      Stockholm     |       77%       |
+| 15 |       Glasgow      |       77%       |
+| 16 |      Newcastle     |       77%       |
+| 17 |      Antwerpen     |       77%       |
+| 18 |      Bordeaux      |       76%       |
+| 19 |       Geneva       |       76%       |
+| 20 |      Kobenhavn     |       76%       |
+| 21 |        Malmo       |       75%       |
+| 22 |      Bialystok     |       75%       |
+| 23 |     Strasbourg     |       75%       |
+| 24 |       Oviedo       |       75%       |
+| 25 |       Hamburg      |       75%       |
+| 26 | Greater_Manchester |       74%       |
+| 27 |       Rostock      |       74%       |
+| 28 |      Rotterdam     |       74%       |
+| 29 |       Leipzig      |       74%       |
+| 30 |     Manchester     |       74%       |
+| 31 |        Braga       |       74%       |
+| 32 |      Amsterdam     |       73%       |
+| 33 |      Ljubljana     |       73%       |
+| 34 |       Dublin       |       72%       |
+| 35 |      Reykjavik     |       72%       |
+| 36 |       London       |       72%       |
+| 37 |     Cluj_Napoca    |       72%       |
+| 38 |       Gdansk       |       72%       |
+| 39 |      Dortmund      |       71%       |
+| 40 |       Zagreb       |       71%       |
+| 41 |    Piatra_Neamt    |       69%       |
+| 42 |        Essen       |       69%       |
+| 43 |       Vilnius      |       69%       |
+| 44 |       Burgas       |       69%       |
+| 45 |        Praha       |       69%       |
+| 46 |        Lille       |       68%       |
+| 47 |       Tallinn      |       68%       |
+| 48 |       Antalya      |       68%       |
+| 49 |       Krakow       |       68%       |
+| 50 |       Malaga       |       67%       |
+| 51 |       Berlin       |       67%       |
+| 52 |       Ostrava      |       67%       |
+| 53 |       Verona       |       67%       |
+| 54 |        Paris       |       67%       |
+| 55 |  Brussel/Bruxelles |       67%       |
+| 56 |    Greater_Paris   |       66%       |
+| 57 |      Barcelona     |       65%       |
+| 58 |      Warszawa      |       65%       |
+| 59 |     Diyarbakir     |       65%       |
+| 60 |        Liege       |       65%       |
+| 61 |        Riga        |       65%       |
+| 62 |       Kosice       |       64%       |
+| 63 |   Greater_Lisbon   |       63%       |
+| 64 |       Bologna      |       63%       |
+| 65 |       Ankara       |       62%       |
+| 66 |      Budapest      |       62%       |
+| 67 |      Lefkosia      |       61%       |
+| 68 |      Marseille     |       60%       |
+| 69 |       Miskolc      |       60%       |
+| 70 |       Torino       |       59%       |
+| 71 |      Valletta      |       59%       |
+| 72 |       Lisboa       |       58%       |
+| 73 |       Madrid       |       58%       |
+| 74 |     Bratislava     |       57%       |
+| 75 |      Irakleio      |       56%       |
+| 76 |        Sofia       |       54%       |
+| 77 |      Bucuresti     |       54%       |
+| 78 |      Istanbul      |       52%       |
+| 79 |       Napoli       |       49%       |
+| 80 |   Greater_Athens   |       48%       |
+| 81 |        Roma        |       48%       |
+| 82 |       Palermo      |       45%       |
+| 83 |       Athina       |       44%       |
 
 
-## Limpieza de los datos <a name|="id2.3"></a>
+## Limpieza de los datos <a name="id2.3"></a>
 
