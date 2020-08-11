@@ -1,7 +1,7 @@
-Indice,Ciudad,Value_Numbeo,Value_Europa
-1 ,Zurich ,218.48, 45
-2 ,Munich ,196.87, 56
-3 ,Ginebra ,189.91, 20
+Indice,Ciudad,Value_Numbeo
+1 ,Zurich ,218.48
+2 ,Munich ,196.87
+3 ,Ginebra ,189.91
 4 ,Viena ,178.28,78
 5 ,Estocolmo ,174.12,51
 6 ,Berlin ,170.63

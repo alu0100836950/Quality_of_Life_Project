@@ -63,7 +63,7 @@ Aqui tenemos un ejemplo con el resultado a la pregunta **"Your personal job situ
 
 ![Cuestion Personal Job situation](./img/example_personal_job.jpeg)
 
-El problema con estos datos es que no existé un ranking para poder ver de una forma más clara que ciudades son las que tienen mayor calidad de vida. Por lo que tuve que coger todos los resultados de cada pregunta(porcentajes) para cada ciudad y hacer una media para crear un ranking propio. 
+El problema con estos datos es que no existe un ranking para poder ver de una forma más clara que ciudades son las que tienen mayor calidad de vida. Por lo que tuve que coger todos los resultados de cada pregunta(porcentajes) para cada ciudad y hacer una media para crear un ranking propio. 
 
 Este resultado consiste en una tabla en excel bastanta grande como para añadirlo al informe, por eso, simplemente añado la tabla que hace referencia al ranking propio de las 83 ciudades en donde se realizó la encuesta de Europa.
 
@@ -166,4 +166,7 @@ También tenemos que tener en cuenta que los datos que tenemos para ambos métod
 
 Comparando este valor podremos visualizar el indice de cada ciudad y comparar que posicion ocupa para cada método de analisis.
 
-## Visualización de los datos <a name="id3.1"></a>
+## Visualización de los datos <a name="id3"></a>
+
+
+## Conclusiones <a name="id4"></a>
