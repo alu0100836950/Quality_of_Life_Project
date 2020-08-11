@@ -26,9 +26,9 @@ Por ello se estudiarán los distintos métodos asi como los ranking que se obten
 
 ## Recopilacion de informacion <a name="id2"></a>
 
-Aqui hablaremos de donde hemos sacado la informacion de los distintos métodos.
+Aqui hablaremos de donde hemos sacado la informacion de los distintos métodos y de que forma hemos escogido los datos para poder tener la informacion necesaria para mostrarla.
 
-## Método de Numbeo <a name="id2.1"></a>
+### Método de Numbeo <a name="id2.1"></a>
 
 Numbeo es una base de datos global de múltiples fuentes de información sobre la calidad de vida en donde existen diversos indicadores como *tasas de criminilidad*, *calidad de atencion médica*. 
 
@@ -49,7 +49,7 @@ Con estos datos se crea una fórmula la cual es utilizada para sacar un valor pa
 
 Como se ha mencionado al principio, se ha escogido el ranking del año 2015 para poder comparar con el siguiente método a explicar.
  
-## Método de Europa <a name="id2.2"></a>
+### Método de Europa <a name="id2.2"></a>
 
 Este Flash Eurobarameter, “Calidad de vida en las ciudades europeas” (n. ° 419), se realizó por medio de la Dirección General de Política Regional y Urbana con el objetivo de obtener una instantánea de opiniones de las personas sobre una serie de cuestiones urbanas. 
 
@@ -59,9 +59,15 @@ En el propio documento que se ha extraído con toda la informacion del *Flash Eu
 
 Aqui tenemos un ejemplo con el resultado a la pregunta **"Your personal job situation"**:
 
+![Pregunta de cuestionario](./img/cuestion.jpeg)
+
 ![Cuestion Personal Job situation](./img/example_personal_job.jpeg)
 
-El problema con estos datos es que no existé un ranking para poder ver de una forma más clara que ciudades son las que tienen mayor calidad de vida. Por lo que tuve que coger todos los resultados de cada pregunta(porcentajes) para cada ciudad y hacer una media y por así obtener un ranking propio. Este resultado residen en un excel bastanta grande como para ponerlo aqui, por eso, simplemente añado la tabla que ahce referencia al ranking de las 83 ciudades en donde se realizo la encuesta de Europa.
+El problema con estos datos es que no existé un ranking para poder ver de una forma más clara que ciudades son las que tienen mayor calidad de vida. Por lo que tuve que coger todos los resultados de cada pregunta(porcentajes) para cada ciudad y hacer una media para crear un ranking propio. 
+
+Este resultado consiste en una tabla en excel bastanta grande como para añadirlo al informe, por eso, simplemente añado la tabla que hace referencia al ranking propio de las 83 ciudades en donde se realizó la encuesta de Europa.
+
+*Destacar que el valor "Porcentaje 2015" corresponde con el porcentaje de personas satisfechas con todas las preguntas realizadas"*
 
 | Nº |       Ciudad       | Porcentaje 2015 |
 |:--:|:------------------:|:---------------:|
@@ -150,5 +156,14 @@ El problema con estos datos es que no existé un ranking para poder ver de una f
 | 83 |       Athina       |       44%       |
 
 
-## Limpieza de los datos <a name="id2.3"></a>
+### Limpieza de los datos <a name="id2.3"></a>
 
+Una vez que tenemos los ranking de distintos métodos vemos que cada uno de ellos tiene X ciudades que evalúa. En el caso de Numbeo(2015) evalúa 58 ciudades, en cambio Europa evalúa 83 ciudades. Para que podamos comparar entre ciudades de una forma más limpia, lo que se ha hecho es quedarnos con las ciudades comunes, obteniendo 33 ciudades Europeas.
+
+Es cierto que nos quedamos con un número de ciudades bastante reducidos y que la cantidad de los datos no es grande, pero el objetivo del estudio es comprobar la diferencia que existe, si la hubiera, de analizar la **calidad de vida** de forma cuantitavia o cualitativa.
+
+También tenemos que tener en cuenta que los datos que tenemos para ambos métodos se dividen en 3 columnas: *Indice, Ciudad, Valor*. Para cada método el *valor* es diferente por tanto no tiene sentido comparar los valores entre ellos, por lo que nuestro parámetro importante es el **indice**, es decir, la posición que ocupa en el ranking de cada uno.
+
+Comparando este valor podremos visualizar el indice de cada ciudad y comparar que posicion ocupa para cada método de analisis.
+
+## Visualización de los datos <a name="id3.1"></a>
