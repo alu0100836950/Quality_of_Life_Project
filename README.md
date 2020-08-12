@@ -13,6 +13,7 @@
     1. [Herramientas utilizadas](#id3.1)
     2. [Metodología y Resultado Final](#id3.2)
 4. [Conclusiones](#id4)
+5. [Líneas de futuro](#id5)
 
 
 ## Objetivo de la práctica <a name="id1"></a>
@@ -246,7 +247,10 @@ Una vez cargado el archivo se nos mostrará una tabla con el contenido del archi
 ![Gráfico de los resultados](./img/graph.jpeg)
 *Este sería el gráfico de los resultados*
 
-Tenemos que fijarnos que la linea azul es una línea recta porque corresponde con los datos de Numbeo y las ciudades estan ordenadas según esa posición. Podría haberse puesto aleatorio pero creo que de esta forma es más fácil de comparar los resultados con los de Europa, esta es la línea naranja.
+Tenemos que fijarnos que la linea azul es una línea recta porque corresponde con los datos de Numbeo y las ciudades estan ordenadas según ese. Podría haberse puesto aleatorio pero creo que de esta forma es más fácil de comparar los resultados con los de Europa, esta es la línea naranja.
 
 
 ## Conclusiones <a name="id4"></a>
+
+
+## Líneas de futuro <a name="id5"></a>
