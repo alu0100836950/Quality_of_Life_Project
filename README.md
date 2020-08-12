@@ -1,4 +1,4 @@
-# Práctica final de Gestion del conocimiento y mundo empresarial
+# Práctica final de GESTIÓN DE COMUNICACIÓN Y CONOCIMIENTO EMPRESARIAL
 
 #### Alberto Martín Núñez
 
@@ -17,18 +17,18 @@
 
 ## Objetivo de la práctica <a name="id1"></a>
 
-El objetivo de este trabajo final de la asignatura consiste en realizar una comparacion entre dos sistemas de medicion sobre la **Calidad de vidad** en las ciudades, centrandonos en las ciudades Europeas(concretamente en 33 ciudades, que son las comunes entres los dos sistemas de medición). Esto se ha hecho así porque Numbeo si contiene datos actualizados pero los datos de Europa vienen dados por un documento que se realiza cada ciertos años y aun no ha salido el nuevo, por tanto, los datos recopilados se remontan a los de 2015. A pesar de haber transcurrido 5 años, esta informacion nos es suficiente para realizar el estudio.
+El objetivo de este trabajo final de la asignatura consiste en realizar una comparacion entre dos sistemas de medicion sobre la **Calidad de vidad** en las ciudades, centrándonos en las ciudades Europeas(concretamente en 33 ciudades, que son las comunes entres los dos sistemas de medición). Esto se ha hecho así porque Numbeo si contiene datos actualizados pero los datos de Europa vienen dados por un documento que se realiza cada ciertos años y aun no se ha publicado el nuevo, por tanto, los datos recopilados se remontan a los de 2015. A pesar de haber transcurrido 5 años, esta informacion nos es suficiente para realizar el estudio.
 
 Se utilizarán dos sistemas de medición diferentes:
 
 - Por un lado de forma cuantitativa, el método de Numbeo, basado en una fórmula.
-- Y por otro lado de manera cualitativa, el método de Europa, basado en una encuesta.
+- Y por otro lado, de manera cualitativa, el método de Europa, basado en una encuesta a la población.
 
 Por ello se estudiarán los distintos métodos asi como los ranking que se obtendrán con el fin de observar si existen diferencias a la hora de medir la **calidad de vida** de forma nuḿerica o haciendo uso de una serie de preguntas a la población(cuestionario). 
 
-## Recopilacion de informacion <a name="id2"></a>
+## Recopilación de información <a name="id2"></a>
 
-Aqui hablaremos de donde hemos sacado la informacion de los distintos métodos y de que forma hemos escogido los datos para poder tener la informacion necesaria para mostrarla.
+Aqui hablaremos de donde hemos sacado la información de los distintos métodos y de que forma hemos escogido los datos para poder tener la información necesaria para mostrarla.
 
 ### Método de Numbeo <a name="id2.1"></a>
 
@@ -43,7 +43,15 @@ Numbeo nos proporciona una herramienta para poder ver, compartir y comparar sobr
 - Calidad del sistema de salud
 - Tráfico(tiempos de viaje)
 
-Con estos datos se crea una fórmula la cual es utilizada para sacar un valor para cada ciudad y de esta forma tener un ranking como el siguiente:
+El índice de calidad de vida (más alto es mejor) es una estimación de la calidad de vida general mediante el uso de una fórmula empírica que tiene en cuenta el índice de poder adquisitivo (más alto es mejor), el índice de contaminación (más bajo es mejor), el precio de la vivienda y la relación de ingresos (más bajo es mejor), índice de costo de vida (menor es mejor), índice de seguridad (mayor es mejor), índice de atención médica (mayor es mejor), índice de tiempo de viaje del tráfico (menor es mejor) e índice climático (mayor es mejor).
+
+
+Con estos parámetros se crea una fórmula:
+
+![Fórmula Numbeo](./img/formula.jpeg)
+
+
+La cual es utilizada para sacar un valor para cada ciudad y de esta forma tener un ranking como el siguiente: 
 
 ![Current Quality of Life Index by City 2020](./img/ranking_2020.jpeg)
 
@@ -180,6 +188,7 @@ Una vez que tenemos el archivo con los datos necesarios se realiza una gráfico 
 Para hacer la visualizacion se ha hecho un pequeño código en **Python** utilizando un framework llamado **Dash** diseñado para crear aplicaciones web. Es muy útil para crear cuadros de mando y aplicaciones de visualización.
 
 ### Metodología y Resultado Final <a name="id3.2"></a>
+
 Primeramente veríamos lo siguiente en nuestra página web.
 
 
