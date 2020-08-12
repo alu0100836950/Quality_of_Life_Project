@@ -160,11 +160,14 @@ Este resultado consiste en una tabla en excel bastanta grande como para añadirl
 
 Una vez que tenemos los ranking de distintos métodos vemos que cada uno de ellos tiene X ciudades que evalúa. En el caso de Numbeo(2015) evalúa 58 ciudades, en cambio Europa evalúa 83 ciudades. Para que podamos comparar entre ciudades de una forma más limpia, lo que se ha hecho es quedarnos con las ciudades comunes, obteniendo 33 ciudades Europeas.
 
-Es cierto que nos quedamos con un número de ciudades bastante reducidos y que la cantidad de los datos no es grande, pero el objetivo del estudio es comprobar la diferencia que existe, si la hubiera, de analizar la **calidad de vida** de forma cuantitavia o cualitativa.
-
 También tenemos que tener en cuenta que los datos que tenemos para ambos métodos se dividen en 3 columnas: *Indice, Ciudad, Valor*. Para cada método el *valor* es diferente por tanto no tiene sentido comparar los valores entre ellos, por lo que nuestro parámetro importante es el **indice**, es decir, la posición que ocupa en el ranking de cada uno.
 
 Comparando este valor podremos visualizar el indice de cada ciudad y comparar que posicion ocupa para cada método de analisis.
+
+
+Es cierto que nos quedamos con un número de ciudades bastante reducidos y que la cantidad de los datos no es grande, pero el objetivo del estudio es comprobar la diferencia que existe, si la hubiera, de analizar la **calidad de vida** de forma cuantitativa o cualitativa.
+
+
 
 ## Visualización de los datos <a name="id3"></a>
 
