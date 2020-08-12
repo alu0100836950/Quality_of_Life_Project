@@ -10,6 +10,8 @@
     2. [Método de Europa](#id2.2)
     3. [Limpieza de los datos](#id2.3)
 3. [Visualización de los datos](#id3)
+    1. [Herramientas utilizadas](#id3.1)
+    2. [Metodología y Resultado Final](#id3.2)
 4. [Conclusiones](#id4)
 
 
@@ -167,9 +169,28 @@ Comparando este valor podremos visualizar el indice de cada ciudad y comparar qu
 
 Es cierto que nos quedamos con un número de ciudades bastante reducidos y que la cantidad de los datos no es grande, pero el objetivo del estudio es comprobar la diferencia que existe, si la hubiera, de analizar la **calidad de vida** de forma cuantitativa o cualitativa.
 
-
+Por tanto, el resultado final es un archivo *csv* con las ciudades comunes entre los dos métodos y las posiciones de cada una de ellas para cada metodo de análisis.
 
 ## Visualización de los datos <a name="id3"></a>
+
+Una vez que tenemos el archivo con los datos necesarios se realiza una gráfico con ellos para visualizar de una forma más clara las diferencias de las posiciones para cada método asi podemos corroborar como varían las posiciones de las ciudades y ver si existe diferencias.
+
+### Herramientas utilizadas <a name="id3.1"></a>
+
+Para hacer la visualizacion se ha hecho un pequeño código en **Python** utilizando un framework llamado **Dash** diseñado para crear aplicaciones web. Es muy útil para crear cuadros de mando y aplicaciones de visualización.
+
+### Metodología y Resultado Final <a name="id3.2"></a>
+Primeramente veríamos lo siguiente en nuestra página web.
+
+
+![Insertar archivo](./img/load.jpeg)
+
+Desde aqui podemos añadir el archivo csv que quremos representar. Hay que tener en cuenta que en primaria instancia lo hice para elegir a través de un dropdown los elementos que se quieren representar pero posteriormente lo modifique dado a que la representación que se quiere hacer es específica. 
+
+El archivo *csv* tiene que tener 3 columnas *Indice_Numbeo,Ciudad,Indice_Europa*
+
+Una vez cargado el archivo se nos mostrará una tabla con el contenido del archivo y justamente debajo un gráfico con los resultados:
+
 
 
 ## Conclusiones <a name="id4"></a>
