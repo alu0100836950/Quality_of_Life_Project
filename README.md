@@ -13,7 +13,7 @@
     1. [Herramientas utilizadas](#id3.1)
     2. [Metodología y Resultado Final](#id3.2)
 4. [Conclusiones](#id4)
-5. [Líneas de futuro](#id5)
+
 
 
 ## Objetivo de la práctica <a name="id1"></a>
@@ -64,7 +64,7 @@ Como se ha mencionado al principio, se ha escogido el ranking del año 2015 para
  
 ### Método de Europa <a name="id2.2"></a>
 
-Este Flash Eurobarameter, “Calidad de vida en las ciudades europeas” (n. ° 419), se realizó por medio de la Dirección General de Política Regional y Urbana con el objetivo de obtener una instantánea de opiniones de las personas sobre una serie de cuestiones urbanas. 
+Este Flash Eurobarameter, “Calidad de vida en las ciudades europeas” (n. ° 419), se realizó por medio de la Dirección General de Política Regional y Urbana con el objetivo de obtener una instantánea de opiniones de las personas sobre una serie de cuestiones urbanas Principalmente esta encuesta se diseña para comparar las ciudades con respecto a 30 criterios que abordan cuestiones sociales,económicas, culturales y ambientales.
 
 La encuesta se realizó en un total de 83 ciudades europeas. En cada ciudad se entrevistó a unos 500 ciudadanos, en total unos 40.798 encuestados de diferentes grupos demográficos.
 
@@ -252,5 +252,14 @@ Tenemos que fijarnos que la linea azul es una línea recta porque corresponde co
 
 ## Conclusiones <a name="id4"></a>
 
+Como podemos ver en la gráfica los resultados son bastantes dispares entre ambos métodos y las ciudades, salvo en algunos casos no concuerdan en las posiciones, inluso existe bastante diferencias como es de *Munchester*, *Berlin*, entre otros.
 
-## Líneas de futuro <a name="id5"></a>
+Esto puede deberse a muchas razones como:
+
+- Puede existir una diferencia grande en la metodología de ambos métodos a pesar de que ambos tienen bastantes similitudes en los parámetros que utilizan para medir.
+
+- Esta información puede darnos a entender que no es lo mismo obtener datos en crudo de la vida cotidiana como el precio de una vivienda y compararlo con una pregunta sobre si el ciudadano se encuentra bien en su ciudad. Quizás haya que existir un término medio entre ambos métodos.
+
+- Tenemos que tener en cuenta que calcular o evaluar algo tan subjetivo con una fórmula es una forma muy fría de analizar la información, ya que puede que un ciudadano con tener elementos en su vida como salud y una casa puede encontrarse feliz en su ciudad, a pesar de que el precio de la vivienda sea cara. Por eso un factor importante y que se nos va de las manos es la subjetividad de cada persona.
+
+En mi opinion obtenr un dato sobre la calidad de vida es una tarea bastante complicada ya que depende de muchisimos factores como la vida personal, estados de animo, etc, que son imposibles de predecir ya que no son continuos en el tiempo y pueden variar en cualquier momento. Quizás la mejor solucion para poder tener una aproximacion sobre la **calidad de vida** sea unificar ambos métodos y así poder acercarno a las personas por ambos lados, cuantitativo y cualitativo.
