@@ -18,7 +18,7 @@
 
 ## Objetivo de la práctica <a name="id1"></a>
 
-El objetivo de este trabajo final de la asignatura consiste en realizar una comparacion entre dos sistemas de medicion sobre la **Calidad de vidad** en las ciudades, centrándonos en las ciudades Europeas(concretamente en 33 ciudades, que son las comunes entres los dos sistemas de medición). Esto se ha hecho así porque Numbeo si contiene datos actualizados pero los datos de Europa vienen dados por un documento que se realiza cada ciertos años y aun no se ha publicado el nuevo, por tanto, los datos recopilados se remontan a los de 2015. A pesar de haber transcurrido 5 años, esta informacion nos es suficiente para realizar el estudio.
+El objetivo de este trabajo final de la asignatura consiste en realizar una comparacion entre dos sistemas de medicion sobre la **Calidad de vida** en las ciudades, centrándonos en las ciudades Europeas(concretamente en 33 ciudades, que son las comunes entres los dos sistemas de medición). Esto se ha hecho así porque Numbeo si contiene datos actualizados pero los datos de Europa vienen dados por un documento que se realiza cada ciertos años y aun no se ha publicado el nuevo, por tanto, los datos recopilados se remontan a los de 2015. A pesar de haber transcurrido 5 años, esta informacion nos es suficiente para realizar el estudio.
 
 Se utilizarán dos sistemas de medición diferentes:
 
